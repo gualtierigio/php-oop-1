@@ -21,7 +21,7 @@ class Movie {
             $this->watchable = false;
         }
     }
-};
+}
 
 // $iRobot = new Movie('I Robot', 'fantasy', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quae, aliquid fuga animi quam inventore temporibus praesentium. Fugiat doloremque illo ab et debitis alias ipsam, beatae itaque neque 
 // voluptate? Facilis.', 134);
@@ -47,7 +47,6 @@ voluptate? Facilis.', 93),
 
 new Movie('Jurassic Park', 'fantasy', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quae, aliquid fuga animi quam inventore temporibus praesentium. Fugiat doloremque illo ab et debitis alias ipsam, beatae itaque neque 
 voluptate? Facilis.', 112)
-]
+];
 
-
-; ?>
+// var_dump($movies)
