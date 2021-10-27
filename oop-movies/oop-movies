@@ -1,0 +1,39 @@
+<?php 
+
+class Movie {
+
+    pubblic $title;
+    pubblic $genre;
+    pubblic $description;
+    pubblic $time;
+    pubblic $watchable = true;
+
+
+    **/
+    *@param string $title
+    *
+    *
+    */
+
+    function _construct($title, $genre, $description, $time){
+        $this->title = $title;
+        $this->genre = $genre;
+        $this->description = $description;
+        $this->time = $time;
+    }
+
+    pubblic function setMinAge($age) {
+        if($age < 15) {
+            $this->watchable = false;
+        }
+    }
+};
+
+$iRobot = new Movie('I Robot', 'fantasy', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse quae, aliquid fuga animi quam inventore temporibus praesentium. Fugiat doloremque illo ab et debitis alias ipsam, beatae itaque neque 
+                    voluptate? Facilis.', 134)
+
+
+$nightmare = new Movie()
+
+
+; ?>
